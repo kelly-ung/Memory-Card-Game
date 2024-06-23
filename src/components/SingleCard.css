@@ -1,0 +1,32 @@
+.card {
+    position: relative;
+}
+
+.card img {
+    width: 70%;
+    display: block;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+/* front of card - the picture */
+.card .front {
+    transform: rotateY(90deg); /* hide front of card by rotating it since it is two-dimensional */
+    transition: all ease-in 0.2s;
+    position: absolute; /* front of card sits on top of back */
+    
+}
+.flipped .front {
+    transform: rotateY(0deg); /* rotate back to normal to show card */
+    transition-delay: 0.2s;
+}
+
+/* back of card - cover */
+.card .back {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+}
+.flipped .back {
+    transition: rotateY(90deg); /* hide back of card while front is showing */
+    transition-delay: 0s;
+}
