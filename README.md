@@ -16,9 +16,9 @@ Play the game: [https://kelly-ung.github.io/Memory-Card-Game/](https://kelly-ung
 
 ## Acknowledgements
 This project used the following youtube tutorial as a base: [video](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iQ7g2eoNXHCJBBBz40S_Lm)
-<br>Author: [Shaun (Net Ninja)](https://github.com/iamshaunjp/React-Firebase/tree/lesson-58)
+<br>Author and Source Code: [Shaun (Net Ninja)](https://github.com/iamshaunjp/React-Firebase/tree/lesson-58)
 
-## Image Sources
+### Image Sources
 - <a href="https://www.flaticon.com/free-icons/turtle" title="turtle icons">Turtle icons created by Freepik - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/ocean" title="ocean icons">Ocean icons created by Freepik - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/bird" title="bird icons">Bird icons created by Freepik - Flaticon</a>
