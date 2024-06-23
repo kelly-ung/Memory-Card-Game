@@ -3,16 +3,16 @@ import './App.css'
 import SingleCard from './components/SingleCard'
 
 const cardImages = [
-  { "src": "/img/easter-bunny.png", matched: false },
-  { "src": "/img/turtle.png", matched: false },
-  { "src": "/img/clown-fish.png", matched: false },
-  { "src": "/img/bird.png", matched: false },
-  { "src": "/img/black-cat.png", matched: false },
-  { "src": "/img/dog.png", matched: false },
-  { "src": "/img/whale.png", matched: false },
-  { "src": "/img/elephant.png", matched: false },
-  { "src": "/img/panda.png", matched: false },
-  { "src": "/img/lion.png", matched: false },
+  { "src": `${process.env.PUBLIC_URL}/img/easter-bunny.png`, matched: false },
+  { "src": `${process.env.PUBLIC_URL}/img/turtle.png`, matched: false },
+  { "src": `${process.env.PUBLIC_URL}/img/clown-fish.png`, matched: false },
+  { "src": `${process.env.PUBLIC_URL}/img/bird.png`, matched: false },
+  { "src": `${process.env.PUBLIC_URL}/img/black-cat.png`, matched: false },
+  { "src": `${process.env.PUBLIC_URL}/img/dog.png`, matched: false },
+  { "src": `${process.env.PUBLIC_URL}/img/whale.png`, matched: false },
+  { "src": `${process.env.PUBLIC_URL}/img/elephant.png`, matched: false },
+  { "src": `${process.env.PUBLIC_URL}/img/panda.png`, matched: false },
+  { "src": `${process.env.PUBLIC_URL}/img/lion.png`, matched: false },
 ]
 
 function App() {
