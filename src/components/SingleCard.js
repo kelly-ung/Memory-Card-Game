@@ -13,7 +13,7 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
             <div className={flipped ? "flipped" : ""}>
                 <img className="front" src={card.src} alt="card front" />
                 <img 
-                    className="back" src="/img/cover.png" 
+                    className="back" src={`${process.env.PUBLIC_URL}/img/cover.png`} 
                     onClick={handleClick} // onClick is on back of card because only the back should be clickable
                     alt="card back" 
                 />
